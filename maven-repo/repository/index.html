@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NativeScript Android Runtime Maven Repository</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        .header { background: #f5f5f5; padding: 20px; border-radius: 5px; }
+        .usage { background: #f9f9f9; padding: 15px; border-left: 4px solid #007acc; margin: 20px 0; }
+        pre { background: #f4f4f4; padding: 10px; border-radius: 3px; overflow-x: auto; }
+        .version { color: #007acc; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🚀 NativeScript Android Runtime Maven Repository</h1>
+        <p>自建的Maven仓库，托管NativeScript Android Runtime AAR文件</p>
+    </div>
+    
+    <h2>📦 可用组件</h2>
+    <ul>
+        <li><strong>android-runtime</strong> - NativeScript运行时核心库</li>
+        <li><strong>widgets</strong> - NativeScript UI组件库</li>
+    </ul>
+    
+    <h2>🔧 使用方法</h2>
+    <div class="usage">
+        <h3>1. 添加仓库</h3>
+        <pre><code>repositories {
+    maven { url = uri("https://yourname.github.io/nativescript-android-runtime/maven-repo/repository") }
+}</code></pre>
+        
+        <h3>2. 添加依赖</h3>
+        <pre><code>dependencies {
+    implementation("com.nativescript:android-runtime:<span class="version">1.0.0</span>")
+    implementation("com.nativescript:widgets:<span class="version">1.0.0</span>")
+}</code></pre>
+    </div>
+    
+    <h2>📋 版本信息</h2>
+    <ul>
+        <li>最新版本: <span class="version">1.0.0</span></li>
+        <li>发布时间: 2025年10月27日 星期一 00时58分03秒 CST</li>
+        <li>支持的Android API: 24+</li>
+    </ul>
+    
+    <h2>📁 仓库结构</h2>
+    <pre><code>com/nativescript/android-runtime/1.0.0/android-runtime-1.0.0.aar
+com/nativescript/android-runtime/1.0.0/android-runtime-1.0.0.pom
+com/nativescript/widgets/1.0.0/widgets-1.0.0.aar
+com/nativescript/widgets/1.0.0/widgets-1.0.0.pom</code></pre>
+    
+    <footer style="margin-top: 40px; padding-top: 20px; border-top: 1px solid #eee; color: #666;">
+        <p>Generated on 2025年10月27日 星期一 00时58分03秒 CST | <a href="https://github.com/yourname/nativescript-android-runtime">GitHub Repository</a></p>
+    </footer>
+</body>
+</html>
